@@ -9,11 +9,14 @@ import errorMiddleware from "./middlewares/error.middleware.js";
 import authRoutes from "./modules/auth/auth.routes.js";
 import heroRoutes from "./modules/hero/hero.routes.js";
 import aboutRoutes from "./modules/about/about.routes.js";
-import uploadsRoutes from "./modules/uploads/uploads.routes.js";
+// import uploadsRoutes from "./modules/uploads/uploads.routes.js";
 import skillsRoutes from "./modules/skills/skills.routes.js";
 import videosRoutes from "./modules/videos/videos.routes.js";
 import reelsRoutes from "./modules/reels/reels.routes.js";
 import reviewsRoutes from "./modules/reviews/reviews.routes.js";
+import uploadsRoutes from "./modules/uploads/uploads.routes.js";
+
+
 
 import { ApiError } from "./utils/ApiError.js";
 import { generalLimiter } from "./middlewares/rateLimit.middleware.js";
